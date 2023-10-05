@@ -1,0 +1,153 @@
+// Define variables for colors
+$primary-color: #000000;
+$secondary-color: #ffffff;
+
+// Define variables for fonts
+$font-family: "IBM Plex Mono", monospace;
+$font-size-small: 16px;
+$font-size-base: 16px;
+$font-size-medium: 22px;
+$font-size-large: 28px;
+
+// Define variables for breakpoints
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+
+$primary-gap: 50px;
+$secondary-gap: 20px;
+$tertiary-gap: 10px;
+
+$border-radius: 10px;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: $secondary-color;
+  font-family: $font-family;
+  font-size: $font-size-base;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: $secondary-color;
+  opacity: 0.5;
+}
+
+html {
+  background-color: $primary-color;
+}
+
+body {
+  padding: 120px 0;
+  background-color: $primary-color;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: $primary-gap;
+}
+
+main,
+footer {
+  max-width: $breakpoint-sm;
+  margin: 0 auto;
+  margin-top: $primary-gap;
+  padding: 12px;
+}
+
+#intro,
+#projects,
+#experience {
+  display: flex;
+  flex-direction: column;
+  gap: $secondary-gap;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: $primary-gap;
+}
+
+h1 {
+  font-size: $font-size-large;
+  font-weight: bold;
+}
+
+.blinking-cursor {
+  font-size: $font-size-medium;
+  background-color: $secondary-color;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+h2 {
+  font-size: $font-size-medium;
+  font-weight: bold;
+}
+
+small {
+  font-size: $font-size-small;
+  color: $secondary-color;
+  opacity: 0.5;
+}
+
+.socials {
+  display: flex;
+  gap: $secondary-gap;
+}
+
+.social-icon {
+  box-sizing: initial;
+  padding: 1px;
+  color: $secondary-color;
+}
+
+.social-container {
+  display: flex;
+  align-items: center;
+  gap: $tertiary-gap;
+  margin: 0 auto;
+}
+
+#projects,
+#experience {
+  & > ul {
+    display: flex;
+    flex-direction: column;
+    gap: $secondary-gap;
+
+    & > li {
+      border-radius: $border-radius;
+      display: flex;
+      flex-direction: column;
+      gap: $secondary-gap;
+      padding: $secondary-gap;
+      background-color: rgba($secondary-color, 0.1);
+    }
+  }
+}
+
+.project-links {
+  display: flex;
+  gap: $secondary-gap;
+  margin-left: auto;
+  margin-top: $tertiary-gap
+}
