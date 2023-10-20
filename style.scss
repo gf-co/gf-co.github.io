@@ -63,15 +63,19 @@ footer {
 
 #intro,
 #projects,
-#experience {
+#experience,
+footer {
   display: flex;
   flex-direction: column;
+}
+
+#intro,
+#projects,
+#experience {
   gap: $secondary-gap;
 }
 
 footer {
-  display: flex;
-  flex-direction: column;
   gap: $primary-gap;
 }
 
