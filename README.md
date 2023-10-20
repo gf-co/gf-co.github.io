@@ -1,7 +1,13 @@
 # Developer Website
 
 - A static page built with vanilla programming languages.
-- Built with <u>JavaScript, HTML, and CSS</u>. Hosted using <u>GitHub Pages</u>.
+
+## Built with
+
+- JavaScript
+- HTML
+- CSS
+- Hosted using GitHub Pages
 
 ## Live Demo
 
