@@ -6,7 +6,7 @@
 
 - JavaScript
 - HTML
-- CSS
+- SASS/CSS
 - Hosted using GitHub Pages
 
 ## Live Demo
