@@ -4,15 +4,26 @@ $secondary-color: #ffffff;
 
 // Define variables for fonts
 $font-family: "IBM Plex Mono", monospace;
-$font-size-small: 16px;
-$font-size-base: 16px;
-$font-size-medium: 22px;
-$font-size-large: 28px;
+// $font-size-small: 16px;
+// $font-size-base: 16px;
+// $font-size-medium: 22px;
+// $font-size-large: 28px;
+
+// Smaller
+$font-size-small: 14px;
+$font-size-base: 14px;
+$font-size-medium: 18px;
+$font-size-large: 26px;
 
 // Define variables for breakpoints
-$breakpoint-sm: 640px;
-$breakpoint-md: 768px;
-$breakpoint-lg: 1024px;
+// $breakpoint-sm: 640px;
+// $breakpoint-md: 768px;
+// $breakpoint-lg: 1024px;
+
+// Smaller
+$breakpoint-sm: 480px;
+$breakpoint-md: 600px;
+$breakpoint-lg: 800px;
 
 $primary-gap: 50px;
 $secondary-gap: 20px;
@@ -115,6 +126,7 @@ small {
 
 .socials {
   display: flex;
+  flex-wrap: wrap;
   gap: $secondary-gap;
 }
 
@@ -153,5 +165,5 @@ small {
   display: flex;
   gap: $secondary-gap;
   margin-left: auto;
-  margin-top: $tertiary-gap
+  margin-top: $tertiary-gap;
 }
