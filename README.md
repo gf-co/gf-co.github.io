@@ -15,4 +15,4 @@
 
 ## Screenshots
 
-<img src='https://github.com/gf-co/gf-co.github.io/assets/145439449/8f02e5cc-a313-4fb0-8cbd-b94aae7889e4' height='500'  />
+<img src='https://github.com/gf-co/gf-co.github.io/assets/145439449/6fd11dbf-8d37-44e7-b33b-fbaee8710658' height='500'  />
